@@ -1,3 +1,134 @@
-html{
+/* *{
+    border: 1px solid red ;
+} */
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+
+.container{
     display: flex;
+}
+.left-container{
+    height: 100vh;
+}
+
+.green-leaf{
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+}
+
+.odin-logo-container{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 20vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.odin-logo{
+    width: 70px;
+    height: 100px;
+}
+
+.odin-text{
+    font-family:monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.odin-logo>img{
+    width: 70px;
+    height: 100px;
+
+}
+.right-container{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-1{
+    background-color: azure;
+    height: 33.33vh;
+    padding: 20px;
+}
+
+.card-2{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.card-3{
+    background-color: lightgrey;
+    padding: 20px;
+    height: 33vh;
+}
+
+
+.right-container p {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container .card-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.form-container{
+    display: flex;
+    /* margin: 20px; */
+    gap: 20px;
+}
+
+.left-form-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right-form-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label{
+    font-size: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+button{
+    margin-bottom: 20px;
+    background-color:  #596D48;
+    border-radius: 5px;
+    border-style: none;
+    padding:10px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+input:focus{
+
 }
